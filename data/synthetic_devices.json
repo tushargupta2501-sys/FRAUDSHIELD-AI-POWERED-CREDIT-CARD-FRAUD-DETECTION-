@@ -1,0 +1,6002 @@
+[
+  {
+    "device_id": "SYN-DEV-00001-2C3EDF",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00002-13E14A",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00003-E4877B",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00004-F335A9",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00005-34B82D",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00006-DF7AE7",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00007-1D8684",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00008-6DCE69",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00009-27935B",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00010-7636B9",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00011-4AFFA6",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00012-50A37E",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00013-472BF8",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00014-A9A313",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00015-70C955",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00016-B12DCD",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00017-D9E363",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00018-3A2590",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00019-4DE367",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00020-C47762",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00021-6AA6D4",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00022-D73CA4",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00023-AD4319",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00024-A2FDAF",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00025-5519BA",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00026-304F67",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00027-F4DF32",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00028-B635B5",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00029-F8A140",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00030-335AD6",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00031-A8AE1A",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00032-4DFAD5",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00033-9DA05E",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00034-99C5B7",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00035-E7F481",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00036-69BE85",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00037-8870D6",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00038-E06DCE",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00039-458B6F",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00040-945753",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00041-98A709",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00042-4C579F",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00043-C38658",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00044-3DFF7B",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00045-AAE90F",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00046-3EC53C",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00047-8A8251",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00048-3624CC",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00049-77B935",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00050-E389FA",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00051-98E12E",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00052-ECEEF8",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00053-1746B0",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00054-5FF2AC",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00055-19AB6C",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00056-5FD316",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00057-42B277",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00058-B2040F",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00059-DBB79F",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00060-87DD41",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00061-8F904F",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00062-8B82FC",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00063-C95C2D",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00064-72F83C",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00065-15ED58",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00066-652709",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00067-3950FC",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00068-3C4D9B",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00069-BB68EF",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00070-BC6DA2",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00071-7C5E07",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00072-9B0ACD",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00073-B24EC0",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00074-8E7F80",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00075-F7759A",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00076-E076BE",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00077-152EA1",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00078-E6D125",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00079-D9608B",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00080-E94C55",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00081-7D9180",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00082-3E45DD",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00083-566EE0",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00084-7AC782",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00085-839EF5",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00086-2BE71F",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00087-060273",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00088-F42376",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00089-FB9D76",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00090-67A70C",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00091-E6599C",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00092-424287",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00093-5AE177",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00094-0A24DA",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00095-E85164",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00096-FCAE9A",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00097-34A439",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00098-29D3BE",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00099-C01E0B",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00100-1DC1CA",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00101-8C78AC",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00102-889044",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00103-4F93E1",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00104-A09DB7",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00105-242639",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00106-EE1C34",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00107-CCCAB0",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00108-825625",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00109-5BD1BB",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00110-F34D24",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00111-001F2B",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00112-EDE672",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00113-5460DA",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00114-B8D281",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00115-B45ADB",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00116-DDF93C",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00117-9C8B58",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00118-540F92",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00119-B27126",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00120-38B340",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00121-ABBD3E",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00122-40CBEB",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00123-AC0052",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00124-10246C",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00125-61A9EF",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00126-CA41CF",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00127-C1D58A",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00128-5CA6DE",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00129-65AB3A",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00130-D6C1D1",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00131-8A8C18",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00132-729F22",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00133-5C5970",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00134-391D5A",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00135-508347",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00136-704D95",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00137-F372A4",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00138-21CE30",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00139-E6FB9B",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00140-1794FA",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00141-9AE184",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00142-6C5DF9",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00143-731642",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00144-ABFE0B",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00145-14CE17",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00146-53DE0B",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00147-E69756",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00148-AE8098",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00149-1FB67C",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00150-DDF8AE",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00151-F327A1",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00152-A7E8CF",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00153-EC097D",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00154-5E5243",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00155-C1BA09",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00156-9E61BF",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00157-E12A62",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00158-E3A643",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00159-913E18",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00160-82EE7E",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00161-177E51",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00162-0C0462",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00163-17110F",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00164-150024",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00165-5BF16E",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00166-4145AC",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00167-32545B",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00168-E05AFF",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00169-50CD5F",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00170-00A578",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00171-3A1A8C",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00172-4F8377",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00173-7D3D87",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00174-CCC5D5",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00175-89499E",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00176-6A32F4",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00177-2DF9AD",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00178-EFEC59",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00179-9CBD72",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00180-C34263",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00181-BC3270",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00182-FEE210",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00183-C22DCA",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00184-465886",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00185-8F66FC",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00186-348C59",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00187-24B7F4",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00188-E90617",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00189-520557",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00190-B62F07",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00191-191C75",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00192-54F10D",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00193-D9856A",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00194-9D418E",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00195-DFBCF8",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00196-4B4110",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00197-1D06C8",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00198-8E4AA1",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00199-2C1BA3",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00200-43086E",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00201-9459AB",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00202-58C796",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00203-9FADD4",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00204-44BAD6",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00205-2386F7",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00206-DA3E08",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00207-E49072",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00208-3D6BFC",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00209-EA4603",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00210-BA99EF",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00211-2029E5",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00212-A8E524",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00213-F092AB",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00214-ECBA6E",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00215-01A6D9",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00216-2209A6",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00217-378A0C",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00218-BFE649",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00219-92BEE5",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00220-D8CBB8",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00221-45A9E8",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00222-1BA4F1",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00223-8F92FD",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00224-B5F56A",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00225-905744",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00226-C68E6B",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00227-3CE7B6",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00228-06468E",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00229-5B8054",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00230-A2F71A",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00231-2C6C74",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00232-0FC2F0",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00233-57BA39",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00234-2CD333",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00235-E6AA7F",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00236-C0CD2C",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00237-63EF56",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00238-BAEB99",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00239-E0706E",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00240-642BAE",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00241-90F5C2",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00242-C0CDAC",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00243-15F597",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00244-52737B",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00245-C6DC75",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00246-53E7ED",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00247-C71D19",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00248-EA6EEF",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00249-68DF6F",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00250-1A3681",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00251-4D26EF",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00252-4E7E73",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00253-DA05DB",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00254-D0F0D2",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00255-EFED75",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00256-638125",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00257-ED5FAA",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00258-3702BB",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00259-6E3225",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00260-B18FCC",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00261-7797D6",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00262-2A492D",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00263-E2393F",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00264-DF32DB",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00265-9A0413",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00266-3EB761",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00267-CEED1A",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00268-4B1F30",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00269-F63348",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00270-F07E60",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00271-C7D37E",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00272-8E61D2",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00273-DCE329",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00274-BF058B",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00275-10A7AF",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00276-11253E",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00277-62F521",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00278-DC8523",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00279-3D1B23",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00280-438DAF",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00281-CAA852",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00282-BA02B7",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00283-19010F",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00284-EBCC13",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00285-CEDE97",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00286-BB9521",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00287-47544A",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00288-BDC0BC",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00289-6CD226",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00290-66FEFC",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00291-64160D",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00292-8A7CD7",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00293-BCA217",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00294-C0895D",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00295-80CDF5",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00296-B8CAF6",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00297-91637B",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00298-F7D303",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00299-F9A02A",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00300-521C10",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00301-AC6F2D",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00302-EE7E71",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00303-A911A0",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00304-8EFA39",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00305-B1C198",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00306-D458C6",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00307-934C1C",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00308-C8D45D",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00309-B2D09A",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00310-5ADF0A",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00311-2632A5",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00312-FF0C10",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00313-17220A",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00314-73E02B",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00315-308A12",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00316-AACD76",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00317-828DB0",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00318-FC3BDC",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00319-75DB02",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00320-B5FABB",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00321-97528B",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00322-EE410B",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00323-B24FCC",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00324-CF8E6C",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00325-BD076A",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00326-4A2AD6",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00327-0AF22B",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00328-7FCA08",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00329-5AAB14",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00330-F1D489",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00331-298EAA",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00332-21F3D9",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00333-82F774",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00334-6183E0",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00335-F2CD47",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00336-0E81E0",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00337-0B36A0",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00338-7E7472",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00339-D94C39",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00340-471A88",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00341-D30740",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00342-5F8E63",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00343-D939AF",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00344-A82BE8",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00345-AC90ED",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00346-2A6457",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00347-9595A3",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00348-BC6562",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00349-BCB6AD",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00350-B6398F",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00351-E72149",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00352-636538",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00353-DDBD42",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00354-08BD33",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00355-7CA30D",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00356-700009",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00357-783185",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00358-D334A8",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00359-919759",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00360-2FCF16",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00361-B5B1F7",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00362-B23B43",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00363-1F193E",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00364-A8BDD2",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00365-136B91",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00366-9C1BF9",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00367-DF4336",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00368-CF0416",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00369-EF7EBD",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00370-AF8ABC",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00371-9C4713",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00372-C96D42",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00373-8790CB",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00374-3DFDE7",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00375-6AA9DE",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00376-B6E673",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00377-74DA03",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00378-AF3DD4",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00379-6BCC21",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00380-53FEE1",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00381-63437E",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00382-5C0D07",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00383-5FABA0",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00384-636B69",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00385-52B5BA",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00386-CD978A",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00387-801C89",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00388-357DD5",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00389-F98D5C",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00390-C46220",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00391-E3B23F",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00392-B85733",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00393-6808EC",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00394-321C4E",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00395-D3FA41",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00396-08AD4C",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00397-C51F32",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00398-766C6B",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00399-B52BA5",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00400-C3B040",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00401-A34E97",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00402-DE9577",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00403-23CD40",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00404-4FA3ED",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00405-CC97C3",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00406-7DDCAB",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00407-C38434",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00408-B95821",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00409-7C341C",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00410-F55A5B",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00411-AC6910",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00412-442A46",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00413-8F70D5",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00414-42E535",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00415-2456FB",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00416-D579A5",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00417-43FA35",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00418-67642F",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00419-B35C21",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00420-B3B676",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00421-7FB071",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00422-080112",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00423-79FB88",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00424-A4B3FA",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00425-84D309",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00426-1C8E62",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00427-C2C26F",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00428-87090D",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00429-8BD53F",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00430-F363F6",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00431-2B5628",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00432-083CBB",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00433-5DA234",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00434-D3AF91",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00435-C84198",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00436-12FF7F",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00437-EE6D2D",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00438-FB1739",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00439-C449D1",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00440-523A16",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00441-489870",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00442-FD3758",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00443-6F6548",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00444-4964BA",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00445-EEFCFB",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00446-F89770",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00447-080D11",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00448-72ECCD",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00449-3E1705",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00450-479759",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00451-2B4516",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00452-0A6ACE",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00453-6EFA1D",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00454-DF4532",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00455-6C17A3",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00456-CE66ED",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00457-0B6B73",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00458-7B7C0E",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00459-537873",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00460-A3120E",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00461-7B2861",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00462-DD02F1",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00463-5C0DAD",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00464-DFA32E",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00465-9B411C",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00466-08778A",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00467-BE3C47",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00468-E3B72E",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00469-1D9F3D",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00470-9690FB",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00471-CD2915",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00472-3E586C",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00473-E53AB7",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00474-44F5D1",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00475-33E093",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00476-C39710",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00477-C2303C",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00478-00AC6F",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00479-52731B",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00480-E1EF5B",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00481-4E4CD9",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00482-F41246",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00483-5CE91E",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00484-8561CB",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00485-638180",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00486-E2E837",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00487-86204D",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00488-C3CB55",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00489-5AB407",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00490-466D53",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00491-4C8326",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00492-6F9858",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00493-41F6C9",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00494-ECA554",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00495-8091CD",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00496-56EAFB",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00497-86BC64",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00498-6DCD56",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00499-B364DB",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00500-C60677",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00501-43F61A",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00502-C50020",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00503-821F4F",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00504-DCAA95",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00505-20E770",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00506-C32C2D",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00507-CDCB52",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00508-F4FE96",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00509-ACCFFF",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00510-B10DCA",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00511-AD6A77",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00512-FE4B01",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00513-72F487",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00514-0C93D2",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00515-B2F5BD",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00516-AD3CC8",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00517-7B026F",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00518-21CC2C",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00519-005ECB",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00520-785C47",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00521-2931BB",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00522-FF67FD",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00523-5CF8DB",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00524-C04554",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00525-F7667A",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00526-2281FF",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00527-FE3243",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00528-05492E",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00529-D1BA76",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00530-4D9B57",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00531-FAF3A7",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00532-F316D7",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00533-2A4D69",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00534-11C542",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00535-70CC10",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00536-0FDF85",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00537-B41279",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00538-4A26D6",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00539-25FA33",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00540-3775C8",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00541-F2DB23",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00542-708B85",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00543-35D555",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00544-658391",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00545-B72378",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00546-9D2B4A",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00547-CADE3D",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00548-F9F187",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00549-49B82F",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00550-778AC9",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00551-96982C",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00552-3DED98",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00553-A31266",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00554-C5D946",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00555-EE6564",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00556-B57B2B",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00557-DF5E9E",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00558-2D7D1C",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00559-876D1C",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00560-C055EB",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00561-CC28CA",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00562-3E1314",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00563-D8FC93",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00564-4317D2",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00565-B72EA0",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00566-60F579",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00567-212C88",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00568-84CBE0",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00569-30DC60",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00570-4A432B",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00571-EBB5A3",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00572-8137AF",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00573-3B4489",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00574-8C2884",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00575-3E01F9",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00576-2CDEA8",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00577-6146A9",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00578-F2C629",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00579-FBD818",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00580-59457B",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00581-3B0FF4",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00582-B1C196",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00583-2C78E6",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00584-D3568B",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00585-C3CD13",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00586-C3C718",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00587-C07EA3",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00588-24B434",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00589-EC40ED",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00590-AECF77",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00591-D2FCA2",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00592-638072",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00593-47C31A",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00594-23D1AC",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00595-5B7F90",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00596-D7E30E",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00597-880EAB",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00598-D122C1",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00599-4814F7",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00600-1984D8",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00601-95BF69",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00602-1CD835",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00603-3ECD4F",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00604-F66D19",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00605-DD7810",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00606-F00E5F",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00607-CB3863",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00608-7D5FC7",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00609-343BCD",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00610-1E8103",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00611-B1DD43",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00612-2A1084",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00613-E3D986",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00614-E26D25",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00615-3E26D7",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00616-72924D",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00617-43D48D",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00618-31AD00",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00619-EFBD3B",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00620-B1E5E0",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00621-BBB178",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00622-0C8677",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00623-61B480",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00624-C8FD58",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00625-894A1B",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00626-19397B",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00627-44C68C",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00628-AF9983",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00629-719265",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00630-1DF68F",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00631-94D3F7",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00632-9E12B4",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00633-2068CC",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00634-4BF6C8",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00635-2706DB",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00636-83BAB6",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00637-CD344F",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00638-E99739",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00639-C8B5E2",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00640-BDD8CB",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00641-EDE153",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00642-A2136D",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00643-E276DF",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00644-502DB6",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00645-B66BE7",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00646-4E1EAE",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00647-D3DA81",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00648-EDDE6C",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00649-2F4D8A",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00650-C343C2",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00651-AD4DCD",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00652-B16467",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00653-C985B3",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00654-342986",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00655-033C07",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00656-8187CE",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00657-919227",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00658-CEE544",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00659-6CD406",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00660-9EC8F8",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00661-55B8C8",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00662-C0609B",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00663-908472",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00664-E78C8C",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00665-635DE9",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00666-7BCAFA",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00667-D1F2CD",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00668-F2FFBD",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00669-A12D2F",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00670-202950",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00671-B4AD77",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00672-D46A94",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00673-53C5C6",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00674-C46857",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00675-589534",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00676-FD9FE6",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00677-E97D9A",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00678-2D79A8",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00679-125B98",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00680-DB254F",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00681-CE12FD",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00682-3B7629",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00683-7B058B",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00684-2240C5",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00685-FF5B50",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00686-A8D282",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00687-CECA90",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00688-0CE20B",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00689-543D9B",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00690-A88A57",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00691-37EEC4",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00692-CEB3C8",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00693-C8F1B1",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00694-2076DE",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00695-9FE232",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00696-B0F182",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00697-B427F8",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00698-338ABE",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00699-66444B",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00700-41C763",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00701-1F4A76",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00702-8150E2",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00703-E1985D",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00704-C4E400",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00705-55C338",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00706-9766B7",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00707-EBB0B5",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00708-AA2114",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00709-E54038",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00710-42FAA6",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00711-CD43F7",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00712-3A8452",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00713-F4C27F",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00714-5A46A7",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00715-3A1AF9",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00716-58AF52",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00717-D7E71D",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00718-E7D173",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00719-0AA6D4",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00720-141877",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00721-BD5E9F",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00722-B7EB25",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00723-43985D",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00724-467A60",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00725-08B502",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00726-CBD8B5",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00727-2AF7BF",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00728-D06B3B",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00729-A531CC",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00730-AB329C",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00731-AE719B",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00732-005810",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00733-B2FBC2",
+    "device_type": "bot_agent",
+    "model_name": "AWS EC2 Headless Linux Instance",
+    "os_name": "Alpine Linux",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00734-BA4455",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00735-4B7196",
+    "device_type": "workstation",
+    "model_name": "System76 Linux Workstation",
+    "os_name": "Ubuntu 24.04",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00736-10B7E1",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00737-235E83",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00738-BE9D05",
+    "device_type": "desktop",
+    "model_name": "MacBook Pro 16 M3",
+    "os_name": "macOS Sonoma",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00739-F6DB29",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00740-BA8657",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00741-E9117C",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00742-BEB7DF",
+    "device_type": "mobile",
+    "model_name": "Samsung Galaxy S24 Ultra",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00743-DAEB20",
+    "device_type": "emulator",
+    "model_name": "Nox Android Emulator (Virtual)",
+    "os_name": "Android 11",
+    "is_trusted": false,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00744-129CC3",
+    "device_type": "mobile",
+    "model_name": "iPhone 15 Pro",
+    "os_name": "iOS 17.5",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00745-ECE7E3",
+    "device_type": "desktop",
+    "model_name": "Dell XPS 15",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00746-7A5245",
+    "device_type": "desktop",
+    "model_name": "Lenovo ThinkPad X1",
+    "os_name": "Windows 11",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00747-22B016",
+    "device_type": "desktop",
+    "model_name": "Custom Gaming PC",
+    "os_name": "Windows 10",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00748-1EC068",
+    "device_type": "mobile",
+    "model_name": "Google Pixel 8 Pro",
+    "os_name": "Android 14",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00749-E9DD7B",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  },
+  {
+    "device_id": "SYN-DEV-00750-F3FE91",
+    "device_type": "mobile",
+    "model_name": "iPhone 14",
+    "os_name": "iOS 17.4",
+    "is_trusted": true,
+    "is_synthetic": true
+  }
+]

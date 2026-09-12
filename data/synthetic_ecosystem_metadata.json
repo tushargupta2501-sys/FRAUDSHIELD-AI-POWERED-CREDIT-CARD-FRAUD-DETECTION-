@@ -1,0 +1,18 @@
+{
+  "synthetic_generator_version": "1.0.0",
+  "generated_at": "2026-09-12T12:49:40.569527+00:00",
+  "total_transactions": 10001,
+  "total_customers": 250,
+  "total_devices": 750,
+  "total_merchants": 20,
+  "fraud_ratio": 0.0601,
+  "scenario_breakdown": {
+    "normal": 9400,
+    "high_amount_fraud": 63,
+    "new_device_fraud": 67,
+    "unusual_location_fraud": 71,
+    "rapid_transaction_fraud": 338,
+    "unusual_merchant_fraud": 62
+  },
+  "disclaimer": "ALL DATA IS ENTIRELY SYNTHETIC AND ARTIFICIALLY GENERATED FOR SIMULATION/BENCHMARK PURPOSES."
+}
