@@ -7,6 +7,7 @@ from typing import Dict, Any, List, Tuple
 import logging
 
 from app.schemas.risk import SHAPFactor
+from app.services.shap_service import shap_service
 
 logger = logging.getLogger("sentinel.ml")
 
@@ -133,34 +134,12 @@ class MLInferenceService:
             else:
                 proba = float(self.model.predict(transformed_arr)[0])
 
-            # Compute SHAP
-            shap_factors = []
-            try:
-                if self.explainer:
-                    shap_vals = self.explainer.shap_values(transformed_arr)
-                    if isinstance(shap_vals, list):
-                        shap_vals = shap_vals[1]
-                    shap_arr = shap_vals[0] if shap_vals.ndim > 1 else shap_vals
-
-                    indexed_shaps = []
-                    for idx, val in enumerate(shap_arr):
-                        fname = model_features[idx] if idx < len(model_features) else f"Feature_{idx}"
-                        indexed_shaps.append((fname, float(val)))
-                    indexed_shaps.sort(key=lambda x: abs(x[1]), reverse=True)
-
-                    for fname, contribution in indexed_shaps[:4]:
-                        raw_val = row_dict.get(fname, "N/A")
-                        impact = "INCREASES_RISK" if contribution > 0 else "DECREASES_RISK"
-                        explanation = self._format_explanation(fname, contribution, raw_val)
-                        shap_factors.append(SHAPFactor(
-                            feature=fname,
-                            value=str(round(raw_val, 2)) if isinstance(raw_val, (int, float)) else str(raw_val),
-                            contribution=round(contribution, 3),
-                            impact=impact,
-                            explanation=explanation
-                        ))
-            except Exception as e:
-                logger.error(f"SHAP explanation generation error: {e}")
+            # Compute SHAP factors via dedicated SHAP service
+            shap_factors = shap_service.compute_shap_factors(
+                input_data=df_input,
+                raw_feature_dict=row_dict,
+                top_k=5
+            )
 
             return proba, shap_factors
 
@@ -169,41 +148,16 @@ class MLInferenceService:
         transformed = self.preprocessor.transform(df_input)
         proba = float(self.model.predict_proba(transformed)[0, 1])
 
-        shap_factors = []
-        try:
-            if self.explainer:
-                shap_vals = self.explainer.shap_values(transformed)
-                if isinstance(shap_vals, list):
-                    shap_vals = shap_vals[1]
-                shap_arr = shap_vals[0] if shap_vals.ndim > 1 else shap_vals
-                feature_names = self.metadata.get("transformed_feature_names", [])
-
-                indexed_shaps = []
-                for idx, val in enumerate(shap_arr):
-                    fname = feature_names[idx] if idx < len(feature_names) else f"feature_{idx}"
-                    indexed_shaps.append((fname, float(val)))
-
-                indexed_shaps.sort(key=lambda x: abs(x[1]), reverse=True)
-
-                for fname, contribution in indexed_shaps[:4]:
-                    raw_val = feature_dict.get(fname.split("__")[-1], "N/A")
-                    impact = "INCREASES_RISK" if contribution > 0 else "DECREASES_RISK"
-                    explanation = self._format_explanation(fname, contribution, raw_val)
-                    shap_factors.append(SHAPFactor(
-                        feature=fname,
-                        value=str(raw_val),
-                        contribution=round(contribution, 3),
-                        impact=impact,
-                        explanation=explanation
-                    ))
-        except Exception as e:
-            logger.error(f"SHAP explanation generation error: {e}")
+        shap_factors = shap_service.compute_shap_factors(
+            input_data=pd.DataFrame([feature_dict]),
+            raw_feature_dict=feature_dict,
+            top_k=5
+        )
 
         return proba, shap_factors
 
     def _format_explanation(self, feature_name: str, contribution: float, value: Any) -> str:
-        direction = "significantly elevated" if contribution > 0 else "within normal range"
-        clean_name = feature_name.replace("num__", "").replace("cat__", "").replace("_", " ").title()
-        return f"{clean_name} ({value}) is {direction} (SHAP {contribution:+.2f})."
+        return shap_service.format_feature_explanation(feature_name, contribution, value)
 
 ml_service = MLInferenceService()
+

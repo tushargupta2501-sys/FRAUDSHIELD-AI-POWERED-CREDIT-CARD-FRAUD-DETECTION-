@@ -6,15 +6,15 @@ services:
     container_name: sentinel_postgres
     restart: always
     environment:
-      POSTGRES_USER: sentinel_user
-      POSTGRES_PASSWORD: sentinel_password
-      POSTGRES_DB: sentinel_db
+      POSTGRES_USER: ${POSTGRES_USER:-sentinel_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-sentinel_password}
+      POSTGRES_DB: ${POSTGRES_DB:-sentinel_db}
     ports:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U sentinel_user -d sentinel_db"]
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-sentinel_user} -d ${POSTGRES_DB:-sentinel_db}"]
       interval: 5s
       timeout: 5s
       retries: 5
@@ -33,10 +33,11 @@ services:
     container_name: sentinel_backend
     restart: always
     environment:
-      - DATABASE_URL=postgresql+asyncpg://sentinel_user:sentinel_password@postgres:5432/sentinel_db
+      - DATABASE_URL=postgresql+asyncpg://${POSTGRES_USER:-sentinel_user}:${POSTGRES_PASSWORD:-sentinel_password}@postgres:5432/${POSTGRES_DB:-sentinel_db}
       - REDIS_URL=redis://redis:6379/0
-      - ENVIRONMENT=production
-      - API_SECRET_KEY=sentinel_jwt_and_hmac_super_secret_key_change_me
+      - ENVIRONMENT=${ENVIRONMENT:-production}
+      - API_SECRET_KEY=${API_SECRET_KEY:-sentinel_jwt_and_hmac_super_secret_key_change_me}
+      - ALLOWED_ORIGINS=${ALLOWED_ORIGINS:-*}
     ports:
       - "8000:8000"
     depends_on:

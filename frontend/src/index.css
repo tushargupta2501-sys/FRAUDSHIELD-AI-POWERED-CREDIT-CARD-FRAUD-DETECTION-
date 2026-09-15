@@ -1,57 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-  body {
-    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-    background-color: #080C15;
-    color: #F1F5F9;
-    overflow-x: hidden;
+  :root {
+    --bg-base: #0B0D10;
+    --bg-surface: #14171C;
+    --bg-elevated: #1B1F26;
+    --border-subtle: #262B33;
+    --border-hover: #3A4149;
+    
+    --text-primary: #E8EAED;
+    --text-secondary: #9AA1AC;
+    --text-muted: #5C6470;
+
+    --accent-amber: #F5A623;
+    --accent-amber-hover: #E0961A;
+
+    --risk-block: #E5484D;
+    --risk-challenge: #F0B429;
+    --risk-allow: #2DD4A7;
+    --risk-info: #4C9AFF;
   }
 
-  code, pre {
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #0B0D10;
+    color: #E8EAED;
+    overflow-x: hidden;
+    letter-spacing: -0.01em;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+  }
+
+  code, pre, .font-mono, .font-code {
     font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
   }
 }
 
-/* Custom modern scrollbar */
+/* Custom Scrollbars */
 ::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+  width: 5px;
+  height: 5px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #0B0F19;
+  background: #0B0D10;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1F2937;
-  border-radius: 9999px;
+  background: #262B33;
+  border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #374151;
+  background: #3A4149;
 }
 
-.glass-panel {
-  background: rgba(17, 24, 39, 0.75);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+/* Sentinel Base Card Surface (No glassmorphism, no glows, flat 1px solid #262B33 border) */
+.sentinel-card {
+  background-color: #14171C;
+  border: 1px solid #262B33;
+  border-radius: 8px;
+  transition: background-color 150ms ease, border-color 150ms ease;
 }
 
-.glow-danger {
-  box-shadow: 0 0 25px -5px rgba(239, 68, 68, 0.4);
+.sentinel-card-interactive {
+  background-color: #14171C;
+  border: 1px solid #262B33;
+  border-radius: 8px;
+  transition: background-color 150ms ease, border-color 150ms ease;
+  cursor: pointer;
 }
 
-.glow-warning {
-  box-shadow: 0 0 25px -5px rgba(245, 158, 11, 0.35);
+.sentinel-card-interactive:hover {
+  background-color: #1B1F26;
+  border-color: #3A4149;
 }
 
-.glow-success {
-  box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.35);
+/* Primary Amber Button */
+.btn-primary {
+  background-color: #F5A623;
+  color: #0B0D10;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 8px 16px;
+  transition: background-color 150ms ease, transform 150ms ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
-.glow-blue {
-  box-shadow: 0 0 25px -5px rgba(59, 130, 246, 0.35);
+.btn-primary:hover {
+  background-color: #E0961A;
+}
+
+.btn-primary:active {
+  transform: scale(0.98);
+}
+
+.btn-primary:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #0B0D10, 0 0 0 4px rgba(245, 166, 35, 0.4);
+}
+
+/* Secondary / Ghost Buttons */
+.btn-secondary {
+  background-color: #14171C;
+  color: #E8EAED;
+  border: 1px solid #262B33;
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 8px 16px;
+  transition: background-color 150ms ease, border-color 150ms ease;
+}
+
+.btn-secondary:hover {
+  background-color: #1B1F26;
+  border-color: #3A4149;
+}
+
+.btn-secondary:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #0B0D10, 0 0 0 4px rgba(245, 166, 35, 0.4);
+}
+
+/* Inputs & Selects */
+.sentinel-input {
+  background-color: #14171C;
+  border: 1px solid #262B33;
+  color: #E8EAED;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+
+.sentinel-input:focus {
+  outline: none;
+  border-color: #F5A623;
+  box-shadow: 0 0 0 2px rgba(245, 166, 35, 0.4);
+}
+
+.sentinel-input::placeholder {
+  color: #5C6470;
+}
+
+/* Risk Badges (Pill-shaped, 11px mono font, 15% opacity bg + full opacity text) */
+.badge-block {
+  background-color: rgba(229, 72, 77, 0.15);
+  color: #E5484D;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.badge-challenge {
+  background-color: rgba(240, 180, 41, 0.15);
+  color: #F0B429;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.badge-allow {
+  background-color: rgba(45, 212, 167, 0.15);
+  color: #2DD4A7;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Live pulse dot animation */
+@keyframes livePulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.animate-live-dot {
+  animation: livePulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }

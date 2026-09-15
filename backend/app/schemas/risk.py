@@ -30,3 +30,12 @@ class EvaluationResult(BaseModel):
     user_id: str
     amount: float
     merchant_name: str
+
+class ExplanationResponse(BaseModel):
+    transaction_id: str
+    fraud_probability: float
+    base_value: float = 0.0017
+    top_contributing_features: List[SHAPFactor] = []
+    feature_impact_summary: Dict[str, Any] = {}
+    human_readable_summary: List[str] = []
+

@@ -1,25 +1,35 @@
 import React, { useState } from 'react';
-import { Send, Sparkles, AlertTriangle, ShieldCheck, Zap, RefreshCw } from 'lucide-react';
+import { Sparkles, RefreshCw, Sliders, CheckCircle2, Zap } from 'lucide-react';
 import { evaluateTransaction } from '../api/client';
 
 export const TransactionSimulator = ({ onEvaluationComplete }) => {
+  const [activePresetIndex, setActivePresetIndex] = useState(0); // Default active preset
+
   const [formData, setFormData] = useState({
     user_id: 'usr_4402',
     card_id: 'card_visa_8911',
-    amount: 145.0,
+    amount: 68.50,
     currency: 'USD',
-    merchant_name: 'Target Supercenter',
+    merchant_name: 'Whole Foods Market',
     merchant_category_code: '5411', // Grocery
     country: 'US',
     ip_address: '198.51.100.22',
+    hour_of_day: 14,
+    // V1-V28 anonymized feature overrides
+    V14: 0.2,
+    V12: 0.1,
+    V10: 0.1,
+    V17: 0.0,
+    V4: 0.1
   });
 
+  const [showAdvancedVCols, setShowAdvancedVCols] = useState(false);
   const [loading, setLoading] = useState(false);
   const [lastResult, setLastResult] = useState(null);
 
   const presets = [
     {
-      name: 'Normal Grocery',
+      name: 'Normal Transaction',
       type: 'legit',
       data: {
         user_id: 'usr_4402',
@@ -28,11 +38,13 @@ export const TransactionSimulator = ({ onEvaluationComplete }) => {
         merchant_name: 'Whole Foods Market',
         merchant_category_code: '5411',
         country: 'US',
-        ip_address: '198.51.100.22'
+        ip_address: '198.51.100.22',
+        hour_of_day: 14,
+        V14: 0.2, V12: 0.1, V10: 0.1, V17: 0.0, V4: 0.1
       }
     },
     {
-      name: 'Midnight Electronics Spree',
+      name: 'Suspicious Transaction',
       type: 'fraud',
       data: {
         user_id: 'usr_4402',
@@ -41,11 +53,28 @@ export const TransactionSimulator = ({ onEvaluationComplete }) => {
         merchant_name: 'BestBuy Cyber Store',
         merchant_category_code: '5732',
         country: 'US',
-        ip_address: '185.220.101.5'
+        ip_address: '185.220.101.5',
+        hour_of_day: 2,
+        V14: -4.5, V12: -3.8, V10: -3.2, V17: -2.9, V4: 3.5
       }
     },
     {
-      name: 'Rapid Velocity Burst',
+      name: 'High Amount Transaction',
+      type: 'fraud',
+      data: {
+        user_id: 'usr_3310',
+        card_id: 'card_visa_9901',
+        amount: 4500.00,
+        merchant_name: 'Luxury Jewelry Emporium',
+        merchant_category_code: '5944',
+        country: 'US',
+        ip_address: '198.51.100.22',
+        hour_of_day: 18,
+        V14: -2.1, V12: -1.8, V10: -1.5, V17: -1.2, V4: 1.8
+      }
+    },
+    {
+      name: 'High Velocity Transaction',
       type: 'fraud',
       data: {
         user_id: 'usr_4402',
@@ -54,42 +83,39 @@ export const TransactionSimulator = ({ onEvaluationComplete }) => {
         merchant_name: 'Apple Store Online',
         merchant_category_code: '5732',
         country: 'US',
-        ip_address: '198.51.100.22'
+        ip_address: '198.51.100.22',
+        hour_of_day: 15,
+        V14: -4.2, V12: -3.5, V10: -3.0, V17: -2.5, V4: 3.2
       }
     },
     {
-      name: 'Sanctioned Foreign Wire',
+      name: 'High Risk Merchant',
       type: 'fraud',
       data: {
         user_id: 'usr_9912',
         card_id: 'card_mc_1102',
-        amount: 4200.00,
-        merchant_name: 'Global Crypto P2P',
+        amount: 3200.00,
+        merchant_name: 'Global Crypto P2P Exchange',
         merchant_category_code: '6051',
         country: 'RU',
-        ip_address: '95.173.136.2'
-      }
-    },
-    {
-      name: 'Micro Card Testing ($1.85)',
-      type: 'fraud',
-      data: {
-        user_id: 'usr_7721',
-        card_id: 'card_amex_4419',
-        amount: 1.85,
-        merchant_name: 'Online Gift Cards Inc',
-        merchant_category_code: '5311',
-        country: 'NG',
-        ip_address: '102.89.23.11'
+        ip_address: '95.173.136.2',
+        hour_of_day: 3,
+        V14: -5.1, V12: -4.2, V10: -3.9, V17: -3.5, V4: 4.1
       }
     }
   ];
 
-  const handleApplyPreset = (preset) => {
+  const handleApplyPreset = (preset, idx) => {
+    setActivePresetIndex(idx);
     setFormData({
       ...formData,
       ...preset.data
     });
+  };
+
+  const handleInputChange = (field, value) => {
+    setActivePresetIndex(null); // Clear preset highlight if user manually modifies fields
+    setFormData((prev) => ({ ...prev, [field]: value }));
   };
 
   const handleSubmit = async (e) => {
@@ -110,173 +136,249 @@ export const TransactionSimulator = ({ onEvaluationComplete }) => {
   };
 
   return (
-    <div className="rounded-2xl bg-[#0F1424] border border-gray-800 p-6 shadow-xl">
-      <div className="flex items-center justify-between mb-4">
-        <div className="flex items-center space-x-2">
-          <Sparkles className="w-5 h-5 text-blue-400" />
-          <h2 className="text-lg font-bold text-white">Live Transaction Simulator</h2>
+    <div className="sentinel-card p-6 space-y-6">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-4 border-b border-[#262B33]">
+        <div>
+          <div className="flex items-center space-x-2 text-[#F5A623] font-mono text-xs mb-0.5 font-semibold">
+            <Sparkles className="w-3.5 h-3.5" />
+            <span className="uppercase tracking-[0.06em]">Real-Time Injection Simulator</span>
+          </div>
+          <h2 className="text-xl font-semibold text-[#E8EAED] tracking-tight">Transaction Risk Simulator</h2>
         </div>
-        <span className="text-xs text-gray-400">Injects directly into Security Gate</span>
+        <span className="text-xs font-mono text-[#9AA1AC] bg-[#0B0D10] px-3 py-1 rounded-[6px] border border-[#262B33]">
+          POST /api/v1/transactions/check
+        </span>
       </div>
 
-      {/* Preset Buttons */}
-      <div className="mb-5">
-        <p className="text-xs font-medium text-gray-400 mb-2">Simulate Attack or Normal Pattern Presets:</p>
-        <div className="flex flex-wrap gap-2">
-          {presets.map((preset, idx) => (
-            <button
-              key={idx}
-              type="button"
-              onClick={() => handleApplyPreset(preset)}
-              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
-                preset.type === 'fraud'
-                  ? 'bg-rose-500/10 text-rose-300 border border-rose-500/30 hover:bg-rose-500/20'
-                  : 'bg-emerald-500/10 text-emerald-300 border border-emerald-500/30 hover:bg-emerald-500/20'
-              }`}
-            >
-              {preset.name}
-            </button>
-          ))}
+      {/* Preset Scenario Buttons with Clear Active Selection Highlight */}
+      <div>
+        <p className="text-[11px] font-mono font-semibold text-[#5C6470] mb-2.5 uppercase tracking-[0.06em] flex items-center justify-between">
+          <span>Quick Scenario Presets</span>
+          {activePresetIndex !== null && (
+            <span className="text-[#F5A623] text-[11px] font-semibold">
+              Active: {presets[activePresetIndex]?.name}
+            </span>
+          )}
+        </p>
+        <div className="flex flex-wrap gap-2.5">
+          {presets.map((preset, idx) => {
+            const isSelected = activePresetIndex === idx;
+            const isFraud = preset.type === 'fraud';
+
+            return (
+              <button
+                key={idx}
+                type="button"
+                onClick={() => handleApplyPreset(preset, idx)}
+                className={`px-3 py-2 rounded-[6px] text-xs font-medium transition-all duration-150 flex items-center space-x-2 focus:outline-none focus:ring-2 focus:ring-[#F5A623]/40 ${
+                  isSelected
+                    ? isFraud
+                      ? 'bg-[#E5484D] text-[#FFFFFF] font-semibold border border-[#E5484D]'
+                      : 'bg-[#2DD4A7] text-[#0B0D10] font-semibold border border-[#2DD4A7]'
+                    : 'bg-[#1B1F26] text-[#9AA1AC] border border-[#262B33] hover:bg-[#1B1F26] hover:border-[#3A4149] hover:text-[#E8EAED]'
+                }`}
+              >
+                {isSelected && <CheckCircle2 className="w-3.5 h-3.5 shrink-0" />}
+                <span>{preset.name}</span>
+              </button>
+            );
+          })}
         </div>
       </div>
 
-      {/* Form Fields */}
+      {/* Interactive Form */}
       <form onSubmit={handleSubmit} className="space-y-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {/* Amount */}
           <div>
-            <label className="block text-xs font-medium text-gray-400 mb-1">User ID</label>
-            <input
-              type="text"
-              value={formData.user_id}
-              onChange={(e) => setFormData({ ...formData, user_id: e.target.value })}
-              className="w-full px-3 py-2 rounded-xl bg-gray-900/90 border border-gray-800 text-sm text-gray-100 focus:outline-none focus:border-blue-500"
-              required
-            />
-          </div>
-
-          <div>
-            <label className="block text-xs font-medium text-gray-400 mb-1">Card ID / Token</label>
-            <input
-              type="text"
-              value={formData.card_id}
-              onChange={(e) => setFormData({ ...formData, card_id: e.target.value })}
-              className="w-full px-3 py-2 rounded-xl bg-gray-900/90 border border-gray-800 text-sm text-gray-100 focus:outline-none focus:border-blue-500"
-              required
-            />
-          </div>
-
-          <div>
-            <label className="block text-xs font-medium text-gray-400 mb-1">Transaction Amount ($ USD)</label>
+            <label className="text-xs font-semibold text-[#9AA1AC] block mb-1">
+              Transaction Amount ($)
+            </label>
             <input
               type="number"
               step="0.01"
               value={formData.amount}
-              onChange={(e) => setFormData({ ...formData, amount: e.target.value })}
-              className="w-full px-3 py-2 rounded-xl bg-gray-900/90 border border-gray-800 text-sm text-gray-100 focus:outline-none focus:border-blue-500"
+              onChange={(e) => handleInputChange('amount', e.target.value)}
               required
+              className="w-full px-3 py-2 rounded-[6px] bg-[#0B0D10] border border-[#262B33] text-xs text-[#E8EAED] font-mono font-semibold focus:outline-none focus:ring-2 focus:ring-[#F5A623]/40 focus:ring-offset-2 focus:ring-offset-[#0B0D10] transition-colors duration-150"
             />
           </div>
 
+          {/* Merchant Name */}
           <div>
-            <label className="block text-xs font-medium text-gray-400 mb-1">Merchant Name</label>
+            <label className="text-xs font-semibold text-[#9AA1AC] block mb-1">
+              Merchant Name
+            </label>
             <input
               type="text"
               value={formData.merchant_name}
-              onChange={(e) => setFormData({ ...formData, merchant_name: e.target.value })}
-              className="w-full px-3 py-2 rounded-xl bg-gray-900/90 border border-gray-800 text-sm text-gray-100 focus:outline-none focus:border-blue-500"
+              onChange={(e) => handleInputChange('merchant_name', e.target.value)}
               required
+              className="w-full px-3 py-2 rounded-[6px] bg-[#0B0D10] border border-[#262B33] text-xs text-[#E8EAED] font-sans focus:outline-none focus:ring-2 focus:ring-[#F5A623]/40 focus:ring-offset-2 focus:ring-offset-[#0B0D10] transition-colors duration-150"
             />
           </div>
 
+          {/* MCC */}
           <div>
-            <label className="block text-xs font-medium text-gray-400 mb-1">Merchant MCC (4 digits)</label>
+            <label className="text-xs font-semibold text-[#9AA1AC] block mb-1">
+              Merchant Category Code (MCC)
+            </label>
             <input
               type="text"
-              maxLength={4}
               value={formData.merchant_category_code}
-              onChange={(e) => setFormData({ ...formData, merchant_category_code: e.target.value })}
-              className="w-full px-3 py-2 rounded-xl bg-gray-900/90 border border-gray-800 text-sm text-gray-100 focus:outline-none focus:border-blue-500"
+              onChange={(e) => handleInputChange('merchant_category_code', e.target.value)}
               required
+              placeholder="5411, 5732, 6051..."
+              className="w-full px-3 py-2 rounded-[6px] bg-[#0B0D10] border border-[#262B33] text-xs text-[#E8EAED] font-mono focus:outline-none focus:ring-2 focus:ring-[#F5A623]/40 focus:ring-offset-2 focus:ring-offset-[#0B0D10] transition-colors duration-150"
             />
           </div>
 
+          {/* Country */}
           <div>
-            <label className="block text-xs font-medium text-gray-400 mb-1">Country (ISO-2)</label>
+            <label className="text-xs font-semibold text-[#9AA1AC] block mb-1">
+              Country Code
+            </label>
             <input
               type="text"
-              maxLength={2}
               value={formData.country}
-              onChange={(e) => setFormData({ ...formData, country: e.target.value.toUpperCase() })}
-              className="w-full px-3 py-2 rounded-xl bg-gray-900/90 border border-gray-800 text-sm text-gray-100 focus:outline-none focus:border-blue-500"
+              onChange={(e) => handleInputChange('country', e.target.value)}
               required
+              placeholder="US, RU, NG, UK..."
+              className="w-full px-3 py-2 rounded-[6px] bg-[#0B0D10] border border-[#262B33] text-xs text-[#E8EAED] font-mono uppercase focus:outline-none focus:ring-2 focus:ring-[#F5A623]/40 focus:ring-offset-2 focus:ring-offset-[#0B0D10] transition-colors duration-150"
+            />
+          </div>
+
+          {/* User ID */}
+          <div>
+            <label className="text-xs font-semibold text-[#9AA1AC] block mb-1">
+              User ID / Cardholder ID
+            </label>
+            <input
+              type="text"
+              value={formData.user_id}
+              onChange={(e) => handleInputChange('user_id', e.target.value)}
+              required
+              className="w-full px-3 py-2 rounded-[6px] bg-[#0B0D10] border border-[#262B33] text-xs text-[#E8EAED] font-mono focus:outline-none focus:ring-2 focus:ring-[#F5A623]/40 focus:ring-offset-2 focus:ring-offset-[#0B0D10] transition-colors duration-150"
+            />
+          </div>
+
+          {/* Card ID */}
+          <div>
+            <label className="text-xs font-semibold text-[#9AA1AC] block mb-1">
+              Payment Card Token ID
+            </label>
+            <input
+              type="text"
+              value={formData.card_id}
+              onChange={(e) => handleInputChange('card_id', e.target.value)}
+              required
+              className="w-full px-3 py-2 rounded-[6px] bg-[#0B0D10] border border-[#262B33] text-xs text-[#E8EAED] font-mono focus:outline-none focus:ring-2 focus:ring-[#F5A623]/40 focus:ring-offset-2 focus:ring-offset-[#0B0D10] transition-colors duration-150"
             />
           </div>
         </div>
 
+        {/* Advanced PCA Features Toggle */}
+        <div className="pt-2">
+          <button
+            type="button"
+            onClick={() => setShowAdvancedVCols(!showAdvancedVCols)}
+            className="flex items-center space-x-2 text-xs font-mono text-[#4C9AFF] hover:underline focus:outline-none"
+          >
+            <Sliders className="w-3.5 h-3.5" />
+            <span>{showAdvancedVCols ? 'Hide PCA Features V1–V28' : 'Customize Anonymized PCA Features (V14, V12, V10, V4)'}</span>
+          </button>
+
+          {showAdvancedVCols && (
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 p-3.5 rounded-[6px] bg-[#0B0D10] border border-[#262B33] mt-2 text-xs">
+              <div>
+                <label className="text-[11px] text-[#5C6470] block mb-1 font-mono">V14 (Strong Neg)</label>
+                <input
+                  type="number"
+                  step="0.1"
+                  value={formData.V14}
+                  onChange={(e) => handleInputChange('V14', parseFloat(e.target.value))}
+                  className="w-full px-2.5 py-1.5 rounded-[6px] bg-[#14171C] border border-[#262B33] font-mono text-[#E8EAED]"
+                />
+              </div>
+              <div>
+                <label className="text-[11px] text-[#5C6470] block mb-1 font-mono">V12 (Strong Neg)</label>
+                <input
+                  type="number"
+                  step="0.1"
+                  value={formData.V12}
+                  onChange={(e) => handleInputChange('V12', parseFloat(e.target.value))}
+                  className="w-full px-2.5 py-1.5 rounded-[6px] bg-[#14171C] border border-[#262B33] font-mono text-[#E8EAED]"
+                />
+              </div>
+              <div>
+                <label className="text-[11px] text-[#5C6470] block mb-1 font-mono">V10 (Neg Correlation)</label>
+                <input
+                  type="number"
+                  step="0.1"
+                  value={formData.V10}
+                  onChange={(e) => handleInputChange('V10', parseFloat(e.target.value))}
+                  className="w-full px-2.5 py-1.5 rounded-[6px] bg-[#14171C] border border-[#262B33] font-mono text-[#E8EAED]"
+                />
+              </div>
+              <div>
+                <label className="text-[11px] text-[#5C6470] block mb-1 font-mono">V4 (Pos Shift)</label>
+                <input
+                  type="number"
+                  step="0.1"
+                  value={formData.V4}
+                  onChange={(e) => handleInputChange('V4', parseFloat(e.target.value))}
+                  className="w-full px-2.5 py-1.5 rounded-[6px] bg-[#14171C] border border-[#262B33] font-mono text-[#E8EAED]"
+                />
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Submit CTA Button */}
         <button
           type="submit"
           disabled={loading}
-          className="w-full mt-2 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-semibold text-sm flex items-center justify-center space-x-2 transition-all duration-200 shadow-lg shadow-blue-500/20 disabled:opacity-50"
+          className="btn-primary w-full py-3 text-xs uppercase tracking-[0.06em] font-semibold disabled:opacity-50"
         >
           {loading ? (
             <>
-              <RefreshCw className="w-4 h-4 animate-spin" />
-              <span>Evaluating in Real-Time Pipeline...</span>
+              <RefreshCw className="w-4 h-4 animate-spin text-[#0B0D10]" />
+              <span>Evaluating Risk via ML & Rules...</span>
             </>
           ) : (
             <>
-              <Send className="w-4 h-4" />
-              <span>Evaluate Transaction</span>
+              <Zap className="w-4 h-4 text-[#0B0D10]" />
+              <span>EVALUATE TRANSACTION</span>
             </>
           )}
         </button>
       </form>
 
-      {/* Instant Decision Banner */}
+      {/* Immediate Inline Result Summary Card */}
       {lastResult && (
-        <div className={`mt-6 p-4 rounded-xl border transition-all duration-300 ${
-          lastResult.decision === 'BLOCK'
-            ? 'bg-rose-950/40 border-rose-500/40 text-rose-200 glow-danger'
-            : lastResult.decision === 'CHALLENGE'
-            ? 'bg-amber-950/40 border-amber-500/40 text-amber-200 glow-warning'
-            : 'bg-emerald-950/40 border-emerald-500/40 text-emerald-200 glow-success'
+        <div className={`p-4 rounded-[8px] border space-y-2 ${
+          lastResult.decision === 'BLOCK' ? 'bg-[rgba(229,72,77,0.15)] border-[#E5484D] text-[#E5484D]' :
+          lastResult.decision === 'CHALLENGE' ? 'bg-[rgba(240,180,41,0.15)] border-[#F0B429] text-[#F0B429]' :
+          'bg-[rgba(45,212,167,0.15)] border-[#2DD4A7] text-[#2DD4A7]'
         }`}>
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-3">
-              {lastResult.decision === 'BLOCK' ? (
-                <AlertTriangle className="w-6 h-6 text-rose-400" />
-              ) : (
-                <ShieldCheck className="w-6 h-6 text-emerald-400" />
-              )}
-              <div>
-                <div className="flex items-center space-x-2">
-                  <span className="font-bold text-base tracking-wide">DECISION: {lastResult.decision}</span>
-                  <span className="px-2 py-0.5 text-xs font-semibold rounded bg-black/40">
-                    Risk Score: {lastResult.risk_score} / 100
-                  </span>
-                </div>
-                <p className="text-xs mt-1 text-gray-300">
-                  Evaluated in {lastResult.processing_time_ms} ms | ML Fraud Prob: {(lastResult.ml_score * 100).toFixed(1)}%
-                </p>
-              </div>
-            </div>
-            <span className="text-xs px-2.5 py-1 rounded-full uppercase tracking-wider font-bold bg-black/30 border border-white/10">
-              Tier: {lastResult.risk_tier}
+            <span className="font-mono font-semibold text-xs uppercase tracking-[0.06em]">
+              Evaluation Verdict: {lastResult.decision}
+            </span>
+            <span className="font-mono font-semibold text-sm">
+              Score: {lastResult.risk_score} / 100
             </span>
           </div>
 
-          {lastResult.rule_violations?.length > 0 && (
-            <div className="mt-3 pt-3 border-t border-white/10 text-xs">
-              <span className="font-semibold text-rose-300">Triggered Rules:</span>
-              <ul className="list-disc list-inside mt-1 space-y-0.5 text-gray-300">
-                {lastResult.rule_violations.map((r, i) => (
-                  <li key={i}>{r.rule_name}: {r.description}</li>
-                ))}
-              </ul>
-            </div>
-          )}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-[11px] font-mono text-[#9AA1AC] pt-1 border-t border-current/20">
+            <div>ML Prob: <strong className="text-[#E8EAED]">{(lastResult.ml_score * 100).toFixed(1)}%</strong></div>
+            <div>Z-Score: <strong className="text-[#E8EAED]">{lastResult.behavioral_anomaly_score} σ</strong></div>
+            <div>Rules: <strong className="text-[#E8EAED]">{lastResult.rule_violations?.length || 0} triggered</strong></div>
+            <div>Latency: <strong className="text-[#4C9AFF]">{lastResult.processing_time_ms} ms</strong></div>
+          </div>
         </div>
       )}
     </div>
   );
 };
+
